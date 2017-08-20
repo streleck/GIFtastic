@@ -1,0 +1,77 @@
+body{
+	background-image: url(images/court.jpg)
+}
+h1{
+	color: midnightblue;
+	text-shadow: 2px 2px 1px #700000;
+	font-size: 85px;
+	text-align: center;
+	margin-top: 0;
+}
+#banner{
+	font-size: 17px;
+	color: tan;
+	text-shadow: -2px -2px 1px #700000;
+	background-color: midnightblue;
+	padding: 8px;
+	text-align: center;
+	border-bottom: 2px solid #700000;
+	border-left: 2px solid #600000;
+	width: 98%;
+	margin-left: 5px;
+	margin-right: 8px;
+}
+button{
+	width: 120px;
+	height: 48px;
+	color: tan;
+	text-shadow: -2px -2px 1px #400000;
+	font-size: 17px;
+	border: 4px outset maroon;
+	background-image: url(images/button_background.png);
+	background-size: cover;
+	margin: 20px;
+}
+#button-pile{
+	margin-top: 10px;
+}
+#search-box{
+	width: 100%;
+}
+#search-button{
+	height: 36px;
+	width: auto;
+	margin-top: 22px;
+	margin-right: 5px;
+}
+#search-bar{
+height: 36px;
+width: 75%;
+margin-bottom: 2px;
+margin-right: 20px;
+}
+div{
+	font-size: 15px;
+}
+#gif-dump{
+	margin-top: 30px;
+}
+.gif-box{
+	margin-bottom: 30px;
+	text-shadow: 1px 1px 1px #700000;
+}
+.gif{
+	max-width: 500px;
+}
+img{
+	border: 2px outset midnightblue;
+	border-bottom: 3px outset midnightblue;
+}
+
+@media screen and (max-width: 730px) {
+
+	#search-bar{
+		width: 60%;
+	}
+	
+}
