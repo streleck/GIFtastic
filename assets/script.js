@@ -61,13 +61,12 @@ $("#gif-dump").on("click", ".gif", function(){
 
 //When add button is pressed, take contents of the search field and turn them into a new search button
 $("#search-button").on("click", function(){
-
-	$("#button-pile").html("");
+	
+	event.preventDefault();
 	topics.push($("#search-bar").val());
 	
-	for (i=0; i<topics.length; i++){
-		$("#button-pile").append("<button class='topic-btn' id='" + topics[i] + "' type='button' clicks='0'>" + topics[i] + "</button>")
-	};
+	$("#button-pile").append("<button class='topic-btn' id='" + topics[(topics.length -1)] + "' type='button' clicks='0'>" + topics[
+			(topics.length -1)] + "</button>");
 });
 
 
